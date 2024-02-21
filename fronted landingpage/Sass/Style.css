@@ -158,7 +158,20 @@ body {
   }
 }
 
-.Thirdsection li {
+.Thirdsection ul {
+  -webkit-padding-start: 0px;
+          padding-inline-start: 0px;
+  padding-left: 20px;
+}
+
+@media screen and (min-width: 750px) {
+  .Thirdsection ul {
+    -webkit-padding-start: 40px;
+            padding-inline-start: 40px;
+  }
+}
+
+.Thirdsection ul li {
   -webkit-box-shadow: 0px 5px 5px 2px rgba(175, 169, 169, 0.86);
           box-shadow: 0px 5px 5px 2px rgba(175, 169, 169, 0.86);
   font-family: myOutfit;
@@ -166,16 +179,17 @@ body {
   padding-left: 10px;
   margin-bottom: 20px;
   color: #302d2c;
+  padding-top: 10px;
 }
 
 @media screen and (min-width: 750px) {
-  .Thirdsection li {
+  .Thirdsection ul li {
     font-size: 28px;
   }
 }
 
 @media screen and (min-width: 850px) {
-  .Thirdsection li {
+  .Thirdsection ul li {
     font-size: 38px;
   }
 }
@@ -208,20 +222,33 @@ body {
   font-weight: 700;
 }
 
-.fourthsection li {
+.fourthsection ol {
+  -webkit-padding-start: 0px;
+          padding-inline-start: 0px;
+  padding-left: 20px;
+}
+
+@media screen and (min-width: 750px) {
+  .fourthsection ol {
+    -webkit-padding-start: 40px;
+            padding-inline-start: 40px;
+  }
+}
+
+.fourthsection ol li {
   font-family: myOutfit;
   padding-bottom: 10px;
   color: #302d2c;
 }
 
 @media screen and (min-width: 750px) {
-  .fourthsection li {
+  .fourthsection ol li {
     font-size: 28px;
   }
 }
 
 @media screen and (min-width: 850px) {
-  .fourthsection li {
+  .fourthsection ol li {
     font-size: 38px;
     padding-bottom: 20px;
   }
