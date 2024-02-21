@@ -1,0 +1,275 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+
+    @media screen and (min-width:750px) {
+        margin: 20px;
+    }
+
+}
+
+@font-face {
+
+    font-family: myFont;
+    src: url(../assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+@font-face {
+    font-family: myOutfit;
+    src: url(../assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+.foodimg {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+
+    @media screen and (min-width:750px) {
+        border-radius: 20px;
+    }
+}
+
+.Firstsection {
+    padding: 20px;
+
+    h1 {
+        font-weight: 7 00;
+        color: hsl(24, 5%, 18%);
+        font-size: 30px;
+        font-family: myFont;
+
+        @media screen and (min-width:750px) {
+            font-size: 50px;
+        }
+
+        @media screen and (min-width:850px) {
+            font-size: 70px;
+        }
+
+    }
+
+    p {
+        font-size: 16px;
+        color: hsl(30, 10%, 34%);
+        font-weight: 400;
+        font-family: myOutfit;
+
+        @media screen and (min-width:750px) {
+            font-size: 25px;
+        }
+
+        @media screen and (min-width:850px) {
+            font-size: 35px;
+        }
+    }
+
+}
+
+.Secondsection {
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+    @media screen and (min-width:750px) {
+        padding-left: 30px;
+    }
+
+    h3 {
+        color: hsl(332, 51%, 32%);
+        font-weight: 600;
+        font-family: myOutfit;
+        font-size: 25px;
+        padding: 20px;
+        padding-bottom: 0px;
+
+        @media screen and (min-width:750px) {
+            font-size: 35px;
+        }
+
+        @media screen and (min-width:850px) {
+            font-size: 45px;
+        }
+
+    }
+
+    background-color: hsl(330, 100%, 98%);
+    margin: 20px;
+    border-radius: 20px;
+
+    li {
+        font-family: myOutfit;
+        font-size: 16px;
+        padding-bottom: 15px;
+        padding-left: 20px;
+        color: hsl(24, 5%, 18%);
+
+        .bold {
+            color: black;
+            font-weight: 700;
+            gap: 10px;
+
+        }
+
+        @media screen and (min-width:750px) {
+            font-size: 25px;
+        }
+
+        @media screen and (min-width:850px) {
+            font-size: 35px;
+
+        }
+    }
+
+}
+
+.Thirdsection {
+    padding: 20px;
+
+    h2 {
+        color: hsl(14, 45%, 36%);
+        font-weight: 400;
+        font-size: 30px;
+        font-family: myFont;
+
+        @media screen and (min-width:750px) {
+            font-size: 50px;
+        }
+
+        @media screen and (min-width:850px) {
+            font-size: 60px;
+
+        }
+    }
+
+
+    li {
+        box-shadow: 0px 5px 5px 2px rgba(175, 169, 169, 0.86);
+        font-family: myOutfit;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        margin-bottom: 20px;
+
+        color: hsl(24, 5%, 18%);
+
+        @media screen and (min-width:750px) {
+            font-size: 28px;
+        }
+
+        @media screen and (min-width:850px) {
+            font-size: 38px;
+
+        }
+
+    }
+}
+
+.fourthsection {
+    padding: 20px;
+
+    h2 {
+        color: hsl(14, 45%, 36%);
+        font-weight: 400;
+        font-size: 30px;
+        font-family: myFont;
+
+        @media screen and (min-width:750px) {
+            font-size: 50px;
+        }
+
+        @media screen and (min-width:850px) {
+            font-size: 60px;
+
+        }
+    }
+
+    .bold {
+        color: black;
+        font-weight: 700;
+
+    }
+
+    li {
+        //box-shadow: 0px 5px 5px 2px rgba(175, 169, 169, 0.86);
+        font-family: myOutfit;
+        padding-bottom: 10px;
+        color: hsl(24, 5%, 18%);
+
+        @media screen and (min-width:750px) {
+            font-size: 28px;
+
+        }
+
+        @media screen and (min-width:850px) {
+            font-size: 38px;
+            padding-bottom: 20px;
+
+        }
+    }
+
+}
+
+.fifthSection {
+    padding: 20px;
+
+    h2 {
+        color: hsl(14, 45%, 36%);
+        font-weight: 400;
+        font-size: 30px;
+        font-family: myFont;
+
+        @media screen and (min-width:750px) {
+            font-size: 50px;
+        }
+
+        @media screen and (min-width:850px) {
+            font-size: 60px;
+
+        }
+    }
+
+    p {
+        font-family: myOutfit;
+        color: hsl(24, 5%, 18%);
+
+        @media screen and (min-width:750px) {
+            font-size: 28px;
+
+        }
+
+        @media screen and (min-width:850px) {
+            font-size: 38px;
+            padding-bottom: 20px;
+
+        }
+    }
+
+    ul {
+padding-inline-start: 0px;
+        li {
+            box-shadow: 0px 5px 5px 2px rgba(175, 169, 169, 0.86);
+            padding-left: 10px;
+            margin-bottom: 20px;
+            font-family: myOutfit;
+            color: hsl(24, 5%, 18%);
+
+            display: flex;
+            justify-content: space-between;
+            padding-right: 30px;
+
+            @media screen and (min-width:750px) {
+                font-size: 28px;
+
+            }
+
+            @media screen and (min-width:850px) {
+                font-size: 38px;
+
+
+            }
+        }
+
+        .highlight {
+            color: hsl(14, 45%, 36%);
+            font-weight: 800;
+        }
+    }
+}
